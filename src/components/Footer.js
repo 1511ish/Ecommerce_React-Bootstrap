@@ -4,7 +4,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="bg-dark text-white text-center py-4">
+        <footer className="text-white text-center py-4" style={{background:"#56CCF2"}}>
             <div className="d-flex justify-content-around align-items-center mt-2 px-4">
                 <div className="footer-title h4 mb-3">The Generics</div>
                 <div className="footer-icons">
