@@ -6,9 +6,9 @@ import { CartProvider } from './context/CartContext';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Store from './components/Store';
-import About from './components/About';
-import Home from './components/Home';
-import Cart from './components/Cart';
+import About from './components/About/About';
+import Home from './components/Home/Home';
+import Cart from './components/Cart/Cart';
 
 function App() {
   const [cartVisible, setCartVisible] = useState(false);

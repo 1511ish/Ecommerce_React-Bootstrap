@@ -53,7 +53,7 @@
 
 
 import React, { useContext } from 'react';
-import { CartContext } from '../context/CartContext';
+import { CartContext } from '../../context/CartContext';
 import { Button, Table } from 'react-bootstrap';
 import './Cart.css';
 
